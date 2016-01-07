@@ -9,7 +9,8 @@ input,select,textarea,button {vertical-align:middle}
 input::-ms-clear {display:none}
 button {border:0 none;background-color:transparent;cursor:pointer}
 body {background:#fff}
-body,th,td,input,select,textarea,button {font-size:14px;line-height:1.5;font-family:'Noto Sans', sans-serif;color:#666} /* color값은 디자인가이드에 맞게사용 */
+body,th,td,input,select,textarea,button {font-size:14px;line-height:1.5;font-family:'Nanum Gothic','맑은 고딕','Malgun Gothic','돋움',dotum,sans-serif;color:#666} /* color값은 디자인가이드에 맞게사용 */
+h1,h2,h3 {font-family:'Nanum Myeongjo',Helvetica,'맑은 고딕','Malgun Gothic',Times,serif;}
 a {color:#333;text-decoration:none}
 a:active, a:hover {text-decoration:underline}
 a:active {background-color:transparent}
@@ -148,7 +149,7 @@ address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
 .skin_view .area_title{margin-bottom:29px;padding:68px 0 45px;border-bottom:1px solid #ebebeb;text-align:center}
 .skin_view .area_title a { text-decoration:none }
 .skin_view .tit_category a {font-weight:bold; color:#3db39e}
-.skin_view .tit_post{margin-top:7px;font-size:40px;font-weight:bold;color:#000;line-height:50px}
+.skin_view .tit_post{margin-top:7px;font-size:40px;font-weight:bold;color:#000;line-height:50px;font-family:'Nanum Myeongjo',Helvetica,'맑은 고딕','Malgun Gothic',Times,serif;}
 .skin_view .tit_post a { color:#000 }
 .skin_view .txt_detail{display:block;margin-top:20px;font-size:12px;color:#aaa}
 .skin_view .txt_detail .txt_bar { margin:0 7px 0 5px; }
@@ -280,7 +281,7 @@ address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
 .list_content {padding-top:35px;border-bottom:1px solid #ebebeb}
 .list_content .link_post{display:block;overflow:hidden;text-decoration:none}
 .list_content .link_post:hover .tit_post { text-decoration: underline; color:#3db39e}
-.list_content .tit_post{display:block;font-weight:normal;font-size:28px;text-overflow: ellipsis;overflow: hidden;white-space: nowrap}
+.list_content .tit_post{display:block;font-family:'Nanum Myeongjo',Helvetica,'맑은 고딕','Malgun Gothic',Times,serif;font-weight:normal;font-size:28px;text-overflow: ellipsis;overflow: hidden;white-space: nowrap}
 .list_content .txt_post{display:-webkit-box;display:-ms-flexbox;display:box;overflow:hidden;max-height:80px;margin-top:1px;font-size:16px;line-height:28px;color:#666;vertical-align:top;word-break:break-all;-webkit-box-orient:vertical;-webkit-line-clamp:3}
 .list_content .detail_info{margin-top:16px;font-size:12px;color:#aaa; padding-bottom:35px}
 .list_content .detail_info .link_cate{font-size:12px;text-decoration:none;color:#3db39e}
@@ -367,7 +368,7 @@ address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
 	.skin_view .area_title .my_edit {display:none}
 	.skin_view .tit_category{font-size:13px}
 	.skin_view .tit_category a {font-family:applesdgothicneo-semibold; font-weight:bold}
-	.skin_view .tit_post{margin-top:3px;padding:0 8px;font-family:applesdgothicneo-semibold;font-weight:bold;font-size:26px;line-height:31px}
+	.skin_view .tit_post{margin-top:3px;padding:0 8px;font-family:'Nanum Myeongjo',Helvetica,'맑은 고딕','Malgun Gothic',Times,serif;font-weight:bold;font-size:26px;line-height:31px}
 	.skin_view .txt_detail{margin-top:18px;word-break:break-all}
 	.skin_view .txt_detail .txt_bar{margin:0 8px}
 	.skin_view .area_view{padding:22px 15px 22px}
